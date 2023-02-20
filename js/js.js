@@ -23,9 +23,21 @@
 //    }
 //}
   
-for (let i = 2; i<=10; i++){
+/* for (let i = 2; i<=10; i++){
     if (i%2 !== 0){
         continue;
     }
-    console.log(i);
+    console.log("i=", i);
+} */
+
+let i = 2;
+
+while (i <= 16) {
+    if (i % 2 === 0) {
+        i++;
+        continue;
+    } else {
+        console.log(i);
+    }
+    i++;
 }
